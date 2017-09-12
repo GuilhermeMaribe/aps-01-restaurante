@@ -30,4 +30,8 @@ public class Pratos {
 		this.descricao = descricao;
 	}
 
+	public String toString() {
+		return nome + ": " + preco + "\n" + descricao;
+	}
+
 }

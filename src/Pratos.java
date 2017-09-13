@@ -4,7 +4,16 @@ public class Pratos {
 	private String nome;
 	private Double preco;
 	private String descricao;
+	private Ingrediente[] ingredientes = new Ingrediente[3];
 	
+	public Ingrediente[] getIngredientes() {
+		return ingredientes;
+	}
+
+	public void setIngredientes(Ingrediente[] ingredientes) {
+		this.ingredientes = ingredientes;
+	}
+
 	public Pratos(String nome, Double preco) {
 		this.nome = nome;
 		this.preco = preco;
